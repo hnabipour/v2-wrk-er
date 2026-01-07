@@ -1,0 +1,8 @@
+name = "v2-wrk-er"
+main = "src/worker.ts"
+compatibility_date = "2024-05-29"
+compatibility_flags = ["nodejs_compat"]
+
+kv_namespaces = [
+  { binding = "settings", id = "ff7d18a767e745a0a28eb2ba6183943e" }
+]
